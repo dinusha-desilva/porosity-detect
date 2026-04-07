@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Output directories (user-generated results)
+demo_results/
+validation/
+results/
+*.csv
+!examples/**/*.csv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files (keep examples, ignore user data)
+*.tif
+*.tiff
+*.bmp
+!examples/

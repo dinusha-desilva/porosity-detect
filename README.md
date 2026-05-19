@@ -37,7 +37,7 @@ pip install numpy scipy matplotlib Pillow
 python porosity_gui.py
 ```
 
-1. Click **Browse Image** — select your micrograph
+1. Click **Browse Image**, select your micrograph
 2. Check **"Use entire image as ROI"** or click **Browse Mask** for an ImageJ ROI mask
 3. Select a **preset** from the dropdown
 4. Click **ANALYZE**
@@ -75,7 +75,7 @@ print(f"Voids: {result['void_count']}")
 
 Single-threshold void detection faces an inherent tradeoff: low thresholds miss lighter-edged voids, while high thresholds capture polishing shadows as false positives.
 
-**Pass 1** (strict threshold): Finds only the darkest pixels — definite void cores. These are seeds.
+**Pass 1** (strict threshold): Finds only the darkest pixels, definite void cores. These are seeds.
 
 **Pass 2** (moderate threshold): Finds everything that might be a void, including shadows.
 
@@ -121,7 +121,7 @@ Each analysis produces:
 
 ## Supported Image Formats
 
-JPG, JPEG, PNG, TIFF, TIF, BMP — for both the micrograph image and the ROI mask.
+JPG, JPEG, PNG, TIFF, TIF, BMP - for both the micrograph image and the ROI mask.
 
 ## ROI Masks from ImageJ
 

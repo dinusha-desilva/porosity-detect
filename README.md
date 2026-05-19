@@ -13,13 +13,13 @@ This tool supports the goals of the [Materials Genome Initiative (MGI)](https://
 
 ## Key Features
 
-- **Desktop GUI** — no coding required, just click buttons
+- **Desktop GUI** - no coding required, just click buttons
 - **Two-pass detection** with morphological reconstruction to eliminate shadow artifacts
-- **6 material presets** — tuned for composites, woven fabrics, AM metals
-- **Threshold calibration tool** — automatically finds optimal settings for your images
-- **ImageJ ROI integration** — or use the entire image without a mask
-- **Full-resolution overlay output** — same dimensions as your input image
-- **Text report + JSON** — complete results for every analysis
+- **6 material presets** - tuned for composites, woven fabrics, AM metals
+- **Threshold calibration tool** - automatically finds optimal settings for your images
+- **ImageJ ROI integration** - or use the entire image without a mask
+- **Full-resolution overlay output** - same dimensions as your input image
+- **Text report + JSON** - complete results for every analysis
 
 ## Installation
 
